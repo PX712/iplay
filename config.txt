@@ -1,4 +1,4 @@
-token=NDk0OTAyODU5NjQ1ODQ1NTA0.Do6T-g.xx8Z9FxBIap_paYeyYSjxS1rq9M
+token=NDk0OTA2NTMwNTQ2NzEyNTc2.Do6W-Q.QwVViyfG728nwMCzUl8Xxhladfg
 owner=326099411853901824
 prefix=i
 game=Type iplay
