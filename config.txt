@@ -13,7 +13,7 @@
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token =NDk0OTA2NTMwNTQ2NzEyNTc2.DzEbHg.FeSFqQuPLahD6U-mChcm5WHJfq4
+token =NDg4NjUzNTA0ODExMTA2MzA0.XO_sNw.uM8UPRf2RoN6NkQZuhgQ4nIl0rQ
 
 
 // This sets the owner of the bot
@@ -28,7 +28,7 @@ owner =326099411853901824
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be an @mention of the bot (@Botname play)
 
-prefix = i
+prefix = 1
 
 
 // If you set this, it modifies the default game of the bot
@@ -38,13 +38,13 @@ prefix = i
 // where X is the title. If you don't include an action, it will use the
 // default of "Playing"
 
-game = Type iplay
+game = Listening to 1help
 
 
 // If you set this, it will modify the default status of bot
 // Valid values: ONLINE IDLE DND INVISIBLE
 
-status = DND
+status = IDLE
 
 
 // If you set this to true, the bot will list the title of the song it is currently playing in its
