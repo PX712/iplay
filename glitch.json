@@ -1,0 +1,6 @@
+{
+  "start": "bash start.sh",
+  "watch": {
+    "throttle": 1000
+  }
+}
