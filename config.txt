@@ -1,4 +1,4 @@
-﻿﻿/////////////////////////////////////////////////////////
+﻿/////////////////////////////////////////////////////////
 // Config for the JMusicBot                            //
 /////////////////////////////////////////////////////////
 // Any line starting with // is ignored                //
@@ -13,14 +13,14 @@
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token =NDk0OTA2NTMwNTQ2NzEyNTc2.XRyXVQ.8MoVJhpn8kIKKFh7baAOxDtWmYI
+token = BOT_TOKEN_HERE
 
 
 // This sets the owner of the bot
 // This needs to be the owner's ID (a 17-18 digit number)
 // https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
 
-owner =326099411853901824
+owner = 0
 
 
 // This sets the prefix for the bot
@@ -28,7 +28,7 @@ owner =326099411853901824
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be an @mention of the bot (@Botname play)
 
-prefix = i
+prefix = "@mention"
 
 
 // If you set this, it modifies the default game of the bot
@@ -38,20 +38,20 @@ prefix = i
 // where X is the title. If you don't include an action, it will use the
 // default of "Playing"
 
-game = Listening to ihelp
+game = "DEFAULT"
 
 
 // If you set this, it will modify the default status of bot
 // Valid values: ONLINE IDLE DND INVISIBLE
 
-status = DND
+status = ONLINE
 
 
 // If you set this to true, the bot will list the title of the song it is currently playing in its
 // "Playing" status. Note that this will ONLY work if the bot is playing music on ONE guild;
 // if the bot is playing on multiple guilds, this will not work.
 
-songinstatus = true
+songinstatus = false
 
 
 // If you set this, the bot will also use this prefix in addition to
@@ -81,14 +81,14 @@ help = "help"
 // This is because refreshing the boxes causes the image to be reloaded
 // every time it refreshes.
 
-npimages = true
+npimages = false
 
 
 // If you set this, the bot will not leave a voice channel after it finishes a queue.
 // Keep in mind that being connected to a voice channel uses additional bandwith,
 // so this option is not recommended if bandwidth is a concern.
 
-stayinchannel = true
+stayinchannel = false
 
 
 // This sets the maximum amount of seconds any track loaded can be. If not set or set
@@ -107,7 +107,7 @@ playlistsfolder = Playlists
 // By default, the bot will DM the owner if the bot is running and a new version of the bot
 // becomes available. Set this to false to disable this feature.
 
-updatealerts = false
+updatealerts = true
 
 
 // Changing this changes the lyrics provider

@@ -1,1 +1,1 @@
-worker: java -jar -Dnogui=true bot.jar
+worker: java -jar bot.jar -nogui
